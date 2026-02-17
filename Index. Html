@@ -1,1 +1,25 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ajay Cricket Expert</title>
+<style>
+body{font-family:sans-serif;text-align:center;background:#f2f2f2;}
+.card{background:white;padding:20px;border-radius:15px;margin:20px;}
+.button{background:linear-gradient(45deg,blue,red);color:white;padding:15px 25px;border-radius:10px;text-decoration:none;}
+</style>
+</head>
+<body>
+
+<h1>🏏 Ajay Cricket Expert</h1>
+<p>15K Fans | 92% Accuracy | ⭐ 4.8 Rating</p>
+
+<div class="card">
+<h2>Pre-Match Analysis</h2>
+<p>Expert analysis with pitch & weather report.</p>
+</div>
+
+<a href="https://t.me/yourchannel" class="button">Join Channel</a>
+
+</body>
+</html>
