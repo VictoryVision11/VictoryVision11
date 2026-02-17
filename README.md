@@ -1,114 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Victory Vision | Cricket Predictions & Analysis</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-            color: white;
-            text-align: center;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Victory Vision | Cricket Insights</title>
 
-        header {
-            padding: 80px 20px;
-        }
+<style>
+body{
+    margin:0;
+    font-family: 'Segoe UI', sans-serif;
+    background:#0f2027;
+    color:white;
+}
 
-        h1 {
-            font-size: 50px;
-            margin-bottom: 10px;
-        }
+/* HERO SECTION */
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e') center/cover;
+    padding:60px 20px;
+    text-align:center;
+}
 
-        p {
-            font-size: 18px;
-            max-width: 600px;
-            margin: auto;
-        }
+.hero h1{
+    font-size:32px;
+    margin-bottom:10px;
+    color:#ff9800;
+}
 
-        .stats {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 40px;
-            flex-wrap: wrap;
-        }
+.hero p{
+    font-size:16px;
+    max-width:400px;
+    margin:auto;
+    opacity:0.9;
+}
 
-        .stat-box {
-            background: rgba(255,255,255,0.1);
-            padding: 20px 30px;
-            border-radius: 15px;
-            width: 200px;
-            transition: 0.3s;
-        }
+/* STATS SECTION */
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    padding:30px 10px;
+    flex-wrap:wrap;
+}
 
-        .stat-box:hover {
-            transform: scale(1.05);
-            background: rgba(255,255,255,0.2);
-        }
+.stat-box{
+    background:#1c2b36;
+    padding:20px;
+    border-radius:15px;
+    width:110px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.5);
+}
 
-        .stat-box h2 {
-            font-size: 30px;
-            margin: 0;
-            color: #ff9800;
-        }
+.stat-box h2{
+    margin:0;
+    font-size:20px;
+    color:#ff9800;
+}
 
-        .stat-box span {
-            font-size: 16px;
-        }
+.stat-box span{
+    font-size:12px;
+    opacity:0.8;
+}
 
-        .btn {
-            margin-top: 40px;
-            padding: 12px 25px;
-            font-size: 18px;
-            background: #ff9800;
-            color: black;
-            text-decoration: none;
-            border-radius: 25px;
-            transition: 0.3s;
-        }
+/* BUTTON */
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:10px 20px;
+    background:#ff9800;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
 
-        .btn:hover {
-            background: #ffc107;
-        }
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:15px;
+    font-size:12px;
+    background:#09161d;
+}
 
-        footer {
-            margin-top: 80px;
-            padding: 20px;
-            background: rgba(0,0,0,0.4);
-        }
-    </style>
+/* RESPONSIVE */
+@media(min-width:768px){
+    .hero h1{
+        font-size:45px;
+    }
+    .stat-box{
+        width:150px;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<header>
+<section class="hero">
     <h1>Victory Vision</h1>
-    <p>Your trusted platform for cricket insights, match analysis & expert opinions.</p>
-
-    <div class="stats">
-        <div class="stat-box">
-            <h2>12,500+</h2>
-            <span>Active Members</span>
-        </div>
-
-        <div class="stat-box">
-            <h2>92%</h2>
-            <span>Accuracy Rate</span>
-        </div>
-
-        <div class="stat-box">
-            <h2>4.8 ★</h2>
-            <span>User Rating</span>
-        </div>
+    <p>India’s Fastest Growing Cricket Insights Platform. Trusted by thousands of cricket lovers.</p>
+    <a href="#" class="btn">Join Now</a>
+</section>
+https://t.me/+ZCNMoT7JzUIzNDU1
+<section class="stats">
+    <div class="stat-box">
+        <h2>12,500+</h2>
+        <span>Active Members</span>
     </div>
 
-    <a href="#" class="btn">Join Now</a>
-</header>
+    <div class="stat-box">
+        <h2>92%</h2>
+        <span>Accuracy Rate</span>
+    </div>
+
+    <div class="stat-box">
+        <h2>4.8 ★</h2>
+        <span>User Rating</span>
+    </div>
+</section>
 
 <footer>
-    © 2026 Victory Vision | All Rights Reserved
+© 2026 Victory Vision | All Rights Reserved
 </footer>
 
 </body>
