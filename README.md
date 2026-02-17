@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -164,7 +164,7 @@ opacity:0.5;
 <body>
 
 <section class="profile">
-<img src="https://i.imgur.com/6VBx3io.png" alt="Profile">
+<img src=https://ibb.co/BV3n4gqalt="Profile">
 <h1>Victory Vision</h1>
 <p class="followers">29.8K Followers</p>
 </section>
@@ -186,7 +186,7 @@ opacity:0.5;
 </div>
 </section>
 
-<a href="https://t.me/ZCNMoT7JzUIzND1U1 target="_blank" class="telegram-btn">
+<a href=https://t.me/+ZCNMoT7JzUIzNDU1_blank" class="telegram-btn">
 🚀 Join Telegram Channel
 </a>
 
